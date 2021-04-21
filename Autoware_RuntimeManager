@@ -1,0 +1,12 @@
+Autoware の Runtime Manager 起動方法
+
+【基本】
+$ roslaunch runtime_manager runtime_manager.launch
+
+※すでに以下のように~/.bashrcにbashを通しているので、このコマンドだけで大丈夫です。
+source ~/autoware.ai.file/autoware.ai/install/setup.bash
+
+【原文】
+$ cd autoware.ai
+$ source install/setup.bash
+$ roslaunch runtime_manager runtime_manager.launch
